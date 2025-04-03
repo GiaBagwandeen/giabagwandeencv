@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\gbcv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:gbcv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\gbcv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:gbcv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,12 +106,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T18:34:56.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T18:34:56.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": ".dockerignore",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -160,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GBCV.csproj",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\GBCV.csproj",
               "RelativeDocumentMoniker": "GBCV.csproj",
@@ -168,8 +167,7 @@
               "RelativeToolTip": "GBCV.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-30T17:56:52.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T17:56:52.777Z"
             },
             {
               "$type": "Document",
@@ -179,7 +177,7 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-03T18:31:01.42Z",
               "EditorCaption": ""
