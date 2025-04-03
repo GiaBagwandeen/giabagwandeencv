@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\gbcv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F8DC520-9AC8-4DE8-A7F2-F83D1A7DACF1}|GBCV.csproj|c:\\users\\lab_services_student\\source\\repos\\gbcv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,17 +94,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T18:34:56.635Z",
               "EditorCaption": ""
@@ -121,31 +121,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-03T18:32:04.212Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-03T18:31:01.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SkillsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Views\\Home\\Partials\\SkillsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Partials\\SkillsPartial.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Views\\Home\\Partials\\SkillsPartial.cshtml",
-              "RelativeToolTip": "Views\\Home\\Partials\\SkillsPartial.cshtml",
-              "ViewState": "AgIAAAAAAACAmZmZmRkmwHYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T18:01:59.317Z"
             },
             {
               "$type": "Document",
@@ -198,6 +173,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-03T18:31:01.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SkillsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Views\\Home\\Partials\\SkillsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Partials\\SkillsPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Views\\Home\\Partials\\SkillsPartial.cshtml",
+              "RelativeToolTip": "Views\\Home\\Partials\\SkillsPartial.cshtml",
+              "ViewState": "AgIAAAAAAACAmZmZmRkmwHYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T18:01:59.317Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\GBCV\\Views\\Home\\Index.cshtml",
@@ -218,8 +218,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAJQAAACAODMzM7MiwMUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T17:49:54.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T17:49:54.819Z"
             },
             {
               "$type": "Document",
