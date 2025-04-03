@@ -1,0 +1,119 @@
+﻿@model GBCV.Models.CVModels
+
+<div class="skills-section card mb-4" style="background-color: white; border: 1px solid #eee;">
+    <div class="card-header" style="background-color: white; border-bottom: 1px solid #eee;">
+        <h4 style="color: black;"><i class="fas fa-code me-2 text-purple"></i> Technical Skills</h4>
+    </div>
+    <div class="card-body">
+        @foreach (var skill in Model.Skills)
+        {
+            <div class="skill-item mb-3" data-skill="@skill.Name.ToLower()">
+                <div class="d-flex justify-content-between">
+                    <h6 style="color: black;">@skill.Name</h6>
+                    <span class="skill-percent" data-target="@skill.Proficiency" style="color: black;">0%</span>
+                </div>
+                <div class="progress progress-tech">
+                    <div class="progress-bar progress-bar-animated"
+                         role="progressbar"
+                         aria-valuenow="@skill.Proficiency"
+                         aria-valuemin="0"
+                         aria-valuemax="100"
+                         data-progress="@skill.Proficiency">
+                        <div class="progress-bar-pulse"></div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    /* Progress Bar Styles */
+    .progress-tech {
+        height: 12px;
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: none;
+    }
+
+    .progress-bar-animated {
+        background: linear-gradient(90deg, var(--primary-purple), var(--light-purple));
+        position: relative;
+        transition: width 1.5s ease-out;
+        border-radius: 6px;
+    }
+
+    .progress-bar-pulse {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 10px;
+        background: rgba(255,255,255,0.7);
+        animation: pulse 1.5s infinite ease-in-out;
+        border-radius: 0 6px 6px 0;
+    }
+
+    .skill-percent {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 600;
+    }
+
+    /* Animations */
+    @@keyframes pulse {
+        0%, 100% {
+            opacity: 0.7;
+        }
+
+        50% {
+            opacity: 1;
+            width: 15px;
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animate progress bars on scroll
+        const skillItems = document.querySelectorAll('.skill-item');
+
+        const animateProgressBars = () => {
+            skillItems.forEach(item => {
+                const progressBar = item.querySelector('.progress-bar');
+                const percentDisplay = item.querySelector('.skill-percent');
+                const targetPercent = parseInt(progressBar.getAttribute('data-progress'));
+
+                let currentPercent = 0;
+                const increment = targetPercent / 50; // Smooth animation
+
+                const animate = () => {
+                    currentPercent += increment;
+                    if (currentPercent >= targetPercent) {
+                        currentPercent = targetPercent;
+                        percentDisplay.textContent = targetPercent + '%';
+                        return;
+                    }
+
+                    progressBar.style.width = currentPercent + '%';
+                    percentDisplay.textContent = Math.round(currentPercent) + '%';
+                    requestAnimationFrame(animate);
+                };
+
+                // Start animation when element is in view
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            animate();
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+
+                observer.observe(item);
+            });
+        };
+
+        animateProgressBars();
+    });
+</script>

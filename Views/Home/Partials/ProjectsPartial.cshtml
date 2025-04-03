@@ -1,0 +1,93 @@
+﻿@model GBCV.Models.CVModels
+
+<div class="card mb-4 animated-card">
+    <div class="card-header bg-white">
+        <h4><i class="fas fa-laptop-code text-purple me-2"></i>Academic Projects</h4>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            @foreach (var project in Model.Projects)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 project-card" style="transform-origin: center bottom;">
+                        <div class="card-body">
+                            <h5 class="card-title">@project.Title</h5>
+                            <p class="card-text">@project.Description</p>
+                            <div class="tech-tags">
+                                @foreach (var tech in project.Technologies.Split(','))
+                                {
+                                    <span class="badge bg-purple-light text-purple me-1">@tech.Trim()</span>
+                                }
+                            </div>
+                        </div>
+                        @if (!string.IsNullOrEmpty(project.GitHubLink))
+                        {
+                            <div class="card-footer bg-transparent">
+                                <a href="https://@project.GitHubLink" target="_blank"
+                                   class="btn btn-sm btn-outline-purple hover-grow">
+                                    <i class="fab fa-github me-1"></i> View Code
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-grow {
+        transition: all 0.3s ease;
+    }
+
+        .hover-grow:hover {
+            transform: scale(1.05);
+        }
+
+    .tech-tags {
+        margin-top: 0.8rem;
+    }
+</style>
+
+<script>
+    // Project card specific animations
+    document.addEventListener('DOMContentLoaded', function() {
+        gsap.utils.toArray(".project-card").forEach((card, i) => {
+            // Initial state
+            gsap.set(card, { y: 20, opacity: 0 });
+
+            // Animation on scroll
+            ScrollTrigger.create({
+                trigger: card,
+                start: "top 80%",
+                onEnter: () => {
+                    gsap.to(card, {
+                        y: 0,
+                        opacity: 1,
+                        duration: 0.8,
+                        delay: i * 0.1,
+                        ease: "back.out(1.2)"
+                    });
+                }
+            });
+
+            // Hover effect
+            card.addEventListener("mouseenter", () => {
+                gsap.to(card, {
+                    y: -5,
+                    boxShadow: "0 10px 25px rgba(126, 87, 194, 0.3)",
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener("mouseleave", () => {
+                gsap.to(card, {
+                    y: 0,
+                    boxShadow: "0 5px 15px rgba(126, 87, 194, 0.1)",
+                    duration: 0.3
+                });
+            });
+        });
+    });
+</script>
